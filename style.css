@@ -1,0 +1,142 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+.logo h1{
+    font-size: 28px;
+    margin-right: 0;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    margin-right: 20px;
+}
+nav a{
+    color: #333;
+    font-size: 18px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #007bff;
+}
+section{
+    padding: 100px 0;
+}
+h2{
+    font-size: 36px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -20px;
+}
+.produto{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    max-width: 250px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+.produto:hover{
+    transform: translateY(-5px);
+}
+.produto img{
+    height: 200px;
+    width: 100%;
+}
+.produto h3{
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+.produto p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+form{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 100px 0;
+    padding: 50px;
+}
+form label{
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+form input, form textarea{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+}
+form textarea{
+    height: 150px;
+    resize: none;
+    margin-bottom: 20px;
+}
+form button{
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px 20px;
+    transition: background-color 0.2s ease-in-out;
+}
+form button:hover{
+    background-color: #0062cc;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.redes-sociais{
+    display: flex;
+}
+.redes-sociais li{
+    margin-right: 10px;
+}
+.redes-sociais a{
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+.redes-sociais a:hover{
+    color: #007bff;
+}
